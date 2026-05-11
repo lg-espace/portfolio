@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lysandre Goudon | Étudiant Ingénieur SeaTech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <a href="#" class="nav-logo">Lysandre Goudon</a>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#about">À propos</a>
+      <a href="#education">Formation</a>
+      <a href="#projects">Projets</a>
+      <a href="#skills">Compétences</a>
+      <a href="#contact">Contact</a>
+      <a href="CV.pdf" class="nav-cv" target="_blank">CV</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Lysandre Goudon</h1>
+      <h2>Étudiant ingénieur à SeaTech Toulon<br><span class="hero-accent">Mathématiques · Physique · Informatique</span></h2>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <img src="photo.jpg" alt="Photo de Lysandre Goudon" class="hero-img" />
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="section-inner">
+      <div class="about-img-wrap logo-wrap">
+        <img src="logo.png" alt="Lysandre Goudon" />
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">Mon profil</h2>
+        <p>
+          Je suis actuellement étudiant ingénieur à SeaTech Toulon après deux années de classe préparatoire PC au lycée Aux Lazaristes à Lyon.
+        </p>
+        <p>
+          Je m'intéresse notamment à l'hydrodynamique, à l'optimisation numérique et à l'analyse de données.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section education" id="education">
+    <h2 class="section-title centered">Parcours académique</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="tl-date">2025 – 2028 <span>(prévisionnel)</span></div>
+        <div class="tl-card">
+          <h3>SeaTech Toulon</h3>
+          <p class="tl-sub">Diplôme d'ingénieur</p>
+          <p>École d’ingénieurs experte dans les sciences et technologies dédiées au secteur maritime.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-date">2023 – 2025</div>
+        <div class="tl-card">
+          <h3>Lycée Aux Lazaristes – Lyon</h3>
+          <p class="tl-sub">Classe Préparatoire aux Grandes Écoles – Filière PC</p>
+          <p>Formation en mathématiques, physique et chimie. TIPE sur l'optimisation des matériaux pour les supercondensateurs.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-date">2022 – 2023</div>
+        <div class="tl-card">
+          <h3>ACESUP</h3>
+          <p class="tl-sub">Préparation anticipée aux CPGE</p>
+          <p>Préparation aux classes préparatoires scientifiques.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-date">2020 – 2023</div>
+        <div class="tl-card">
+          <h3>Lycée Sainte-Catherine-de-Sienne – Aix-en-Provence</h3>
+          <p class="tl-sub">Baccalauréat général – Mention Bien</p>
+          <p>Spécialités Mathématiques et Physique-Chimie. Section européenne, certification Cambridge English (B2). Président du BDE.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+    <h2 class="section-title centered">Mes projets</h2>
+    <p class="section-subtitle">Travaux académiques, comptes-rendus, projets de recherche et analyses de données réalisés au cours de ma formation.</p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <a href="https://lg-espace.github.io/LittObs/" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_littobs.png')">
+            <div class="project-overlay"><span>Voir le site web →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Ingénierie</span>
+          <h3>Projet de première année : création d'une nouvelle sonde océanographique</h3>
+          <p>Conception et développement d'un système de mesure pour l'observation littorale.</p>
+          <a href="https://lg-espace.github.io/LittObs/" target="_blank" class="project-link">Voir le site web →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/hydro1.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_hydro1.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Hydrodynamique</span>
+          <h3>Hydrodynamique 1</h3>
+          <p>Étude des mécaniques des fluides et applications aux structures maritimes.</p>
+          <a href="projets/hydro1.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/hydro2.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/rhumb_hydro2.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Hydrodynamique</span>
+          <h3>Hydrodynamique 2</h3>
+          <p>Approfondissement des phénomènes de résistance et de propulsion.</p>
+          <a href="projets/hydro2.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/runge.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_runge.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Analyse numérique</span>
+          <h3>Maîtriser le phénomène de Runge en interpolation polynomiale</h3>
+          <p>Étude et contrôle du phénomène de Runge dans le cadre de l'interpolation polynomiale.</p>
+          <a href="projets/runge.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/newton.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_newton.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Analyse numérique</span>
+          <h3>Résolution d'équations : de la méthode du point fixe à l'algorithme de Newton</h3>
+          <p>Comparaison et implémentation des méthodes de résolution d'équations non-linéaires.</p>
+          <a href="projets/newton.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/quadrature.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_quadrature.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Analyse numérique</span>
+          <h3>Quadrature numérique : maîtriser l'erreur d'intégration</h3>
+          <p>Analyse des méthodes de quadrature numérique et étude des erreurs d'approximation.</p>
+          <a href="projets/quadrature.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/bdd_sncf.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_bdd_sncf.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Base de données</span>
+          <h3>Conception d'une Base de Données : Application à la SNCF</h3>
+          <p>Modélisation entité-relation et implémentation SQL appliquée au réseau ferroviaire.</p>
+          <a href="projets/bdd_sncf.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="https://nbviewer.org/github/lg-espace/portfolio/blob/main/projets/dpe_analysis.ipynb" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_dpe_analysis.png')">
+            <div class="project-overlay"><span>Voir le Notebook →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Data Science</span>
+          <h3>Dataset project analysis : Energy Performance Certificates</h3>
+          <p>Analyse exploratoire et statistique d'un jeu de données de diagnostics DPE.</p>
+          <a href="https://nbviewer.org/github/lg-espace/portfolio/blob/main/projets/dpe_analysis.ipynb" target="_blank" class="project-link">Voir le Notebook →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/mat.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_mat.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">Mathématiques</span>
+          <h3>Mathématiques appliquées</h3>
+          <p>Travaux portant sur l'analyse et la modélisation mathématique de systèmes physiques.</p>
+          <a href="projets/mat.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="projets/tipe.pdf" target="_blank" class="project-thumb-link">
+          <div class="project-thumb" style="background-image: url('thumbnails/thumb_tipe.png')">
+            <div class="project-overlay"><span>Voir le projet →</span></div>
+          </div>
+        </a>
+        <div class="project-info">
+          <span class="project-tag">TIPE · CPGE</span>
+          <h3>Densité énergétique des supercondensateurs</h3>
+          <p>Optimisation des matériaux pour maximiser la densité énergétique (travail de CPGE PC).</p>
+          <a href="projets/tipe.pdf" target="_blank" class="project-link">Voir le projet →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section skills" id="skills">
+    <h2 class="section-title centered">Compétences</h2>
+    <div class="skills-grid">
+      <div class="skills-col">
+        <h3>Techniques</h3>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>Mathématiques / Analyse numérique</span><span>90%</span></div><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>Python / C++</span><span>80%</span></div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>SQL / Bases de données</span><span>75%</span></div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>CAO</span><span>65%</span></div><div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div></div>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>Physique / Chimie</span><span>85%</span></div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+      </div>
+      <div class="skills-col">
+        <h3>Transversales</h3>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>Rigueur & Méthode</span><span>95%</span></div><div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div></div>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>Travail d'équipe</span><span>90%</span></div><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>Gestion de projet</span><span>80%</span></div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+        <div class="skill-bar-wrap"><div class="skill-label"><span>Communication</span><span>85%</span></div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+      </div>
+      <div class="skills-col">
+        <h3>Langues</h3>
+        <div class="lang-item"><span class="lang-name">Français</span><span class="lang-level native">Langue maternelle</span></div>
+        <div class="lang-item"><span class="lang-name">Anglais</span><span class="lang-level b2">B2 – Cambridge</span></div>
+        <div class="lang-item"><span class="lang-name">Espagnol</span><span class="lang-level b1">B1 – DELE</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2 class="section-title centered">Me contacter</h2>
+    <div class="contact-inner">
+      <div class="contact-info">
+        <h3>Informations de contact</h3>
+        <p>Vous souhaitez discuter d'un projet, d'une opportunité de stage ou simplement échanger ? N'hésitez pas à me contacter.</p>
+        <ul class="contact-list">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,12 2,6"></polyline></svg>
+            <a href="mailto:lysandre.goudon@icloud.com">lysandre.goudon@icloud.com</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Aix-en-Provence, France</span>
+          </li>
+        </ul>
+        <a href="CV.pdf" target="_blank" class="btn btn-primary" style="margin-top:1.5rem; display:inline-block;">Télécharger mon CV</a>
+      </div>
+
+      <div class="contact-cta">
+        <p>Vous pouvez me contacter directement par e-mail pour discuter d'opportunités de stage ou de projets.</p>
+        <a href="mailto:lysandre.goudon@icloud.com" class="btn btn-primary">Envoyer un e-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a href="#" class="footer-logo">Lysandre Goudon</a>
+    <p>Étudiant ingénieur à SeaTech Toulon</p>
+    <p class="footer-copy">© 2026 Lysandre Goudon. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
